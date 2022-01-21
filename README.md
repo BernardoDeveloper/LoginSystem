@@ -31,7 +31,9 @@
 - [x] Password Encoder
 - [x] Envio de email
 - [x] Construção do email
-- [ ] Email Validator
+- [x] Email Validator
+- [ ] Verificar se os atributos são os mesmos
+- [ ] se o email não for confirmado enviar email de confirmação
 
 ### 🛠 Tecnologias
 
