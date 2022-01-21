@@ -22,7 +22,7 @@
 <!--te-->
 
 <h4 align="center">
-	🚧  Sistema de Login 🚀 Em construção...  🚧
+	🎉  Sistema de Login 🖥️ Terminado 🎉
 </h4>
 
 ### Features
