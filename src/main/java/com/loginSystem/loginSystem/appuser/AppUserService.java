@@ -38,8 +38,13 @@ public class AppUserService implements UserDetailsService {
             .isPresent();
 
         if (userExists) {
-            // TODO: check if atributes are the same and
-            // TODO: if email not confirmed send confirmation email
+            if (appUser.getPassword().equals(appUserRepository.findByEmail(appUser.getEmail()).get().getPassword())) {
+                throw new IllegalArgumentException("atributes are the same");
+            }
+
+            if (appUserRepository.findByEmail(appUser.getEmail()).get().isEnabled()) {
+                throw new IllegalArgumentException("email already confirmed");
+            }
 
             throw new IllegalStateException("email already taken");
         }

@@ -32,8 +32,8 @@
 - [x] Envio de email
 - [x] Construção do email
 - [x] Email Validator
-- [ ] Verificar se os atributos são os mesmos
-- [ ] se o email não for confirmado enviar email de confirmação
+- [x] Verificar se os atributos são os mesmos
+- [x] se o email não for confirmado enviar email de confirmação
 
 ### 🛠 Tecnologias
 
