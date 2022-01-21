@@ -38,6 +38,9 @@ public class AppUserService implements UserDetailsService {
             .isPresent();
 
         if (userExists) {
+            // TODO: check of atributes are the same and
+            // TODO: if email not confirmed send confirmation email
+
             throw new IllegalStateException("email already taken");
         }
 
